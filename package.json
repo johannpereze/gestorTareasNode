@@ -2,7 +2,7 @@
   "name": "gestortareas",
   "version": "1.0.0",
   "description": "Un gestor de tareas pendientes basado en consola hecho con nodejs",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/johannpereze/gestorTareasNode/issues"
   },
-  "homepage": "https://github.com/johannpereze/gestorTareasNode#readme"
+  "homepage": "https://github.com/johannpereze/gestorTareasNode#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
