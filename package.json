@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/johannpereze/gestorTareasNode#readme",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "inquirer": "^8.1.5"
   }
 }
