@@ -19,9 +19,9 @@ const mostrarMenu = () => {
       input: process.stdin,
       output: process.stdout,
     });
-    readLine.question("Selecciona una opción: ", (answer) => {
+    readLine.question("Selecciona una opción: ", (opt) => {
       readLine.close();
-      resolve(answer)
+      resolve(opt)
     });
   });
 };
@@ -32,7 +32,7 @@ const pause = () => {
       input: process.stdin,
       output: process.stdout,
     });
-    readLine.question(`\nPresiona ${"ENTER".green} para salir `, (answer) => {
+    readLine.question(`\nPresiona ${"ENTER".green} para salir `, (opt) => {
       readLine.close();
       resolve();
     });
